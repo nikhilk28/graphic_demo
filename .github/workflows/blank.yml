@@ -6,7 +6,7 @@ name: Demo test
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ demo ]
+    branches: [ main ,demo ]
     
   workflow_dispatch:
 
@@ -22,6 +22,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+        with:
+          ref: demo
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
