@@ -1,0 +1,16 @@
+You need to checkout with submodules:
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+      - name: Use submodule action
+        uses: ./.github/actions/checkout
+        with:
+          ...
+See https://github.com/actions/checkout 28:
+
+Whether to checkout submodules: true to checkout submodules or recursive to recursively checkout submodules. Default: false
+
+The local machine's clock may be out of sync with the server time by more than five minutes. Please sync your clock with your domain or internet time and try again.
