@@ -22,5 +22,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: main checkout list
         run: ls -l
+        working-directory : ./demo/demo1/
         
 
