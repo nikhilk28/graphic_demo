@@ -1,1 +1,1 @@
-this is the sample file for gui application
+this is the sampl
