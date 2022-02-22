@@ -1,1 +1,1 @@
-# graphic
+# graphic card game
