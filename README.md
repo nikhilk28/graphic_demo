@@ -1,1 +1,1 @@
-# graphic_demo example
+# graphic
